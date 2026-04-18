@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AI Grammar Checker</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>📝 AI Grammar Checker</h1>
+
+<button onclick="toggleDarkMode()">🌙 Toggle Mode</button>
+
+<div class="controls">
+  <button onclick="startSpeech()">🎤 Speak</button>
+  <button onclick="checkGrammar()">Check Grammar</button>
+  <button onclick="autoCorrect()">Auto Correct</button>
+</div>
+
+<div id="editor" contenteditable="true" class="editor">
+  Type or speak your text here...
+</div>
+
+<div id="result"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

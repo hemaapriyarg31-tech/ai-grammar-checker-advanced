@@ -1,0 +1,51 @@
+
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f4f6f9;
+  transition: 0.3s;
+}
+
+.dark {
+  background: #121212;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.controls button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.editor {
+  border: 1px solid #ccc;
+  min-height: 150px;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: left;
+  background: white;
+}
+
+.dark .editor {
+  background: #1e1e1e;
+  color: white;
+}
+
+.error {
+  background-color: #ffcccc;
+  border-bottom: 2px solid red;
+}
+
+#result {
+  margin-top: 20px;
+  text-align: left;
+}
